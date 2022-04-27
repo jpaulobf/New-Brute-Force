@@ -10,7 +10,7 @@ public class BruteForce {
 
     public void test() {
 
-        final int test = 3;
+        final int test = 1;
 
         switch (test) {
 
