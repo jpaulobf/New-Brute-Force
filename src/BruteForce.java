@@ -14,7 +14,6 @@ public class BruteForce {
 
         switch (test) {
 
-            
             case 1:
                 //--------------------------------------------------------------//
                 //primeiro teste:
