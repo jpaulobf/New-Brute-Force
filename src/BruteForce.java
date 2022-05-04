@@ -26,7 +26,7 @@ public class BruteForce {
                 }
 
                 Date after = new Date();
-                System.out.println("Diff = " + (after.getTime() - before.getTime()) + " milissegundos");
+                System.out.println("Diff = " + (after.getTime() - before.getTime()) + " - milissegundos");
             break;
             
             case 2:
@@ -43,7 +43,7 @@ public class BruteForce {
                 }
 
                 after = new Date();
-                System.out.println("Diff = " + (after.getTime() - before.getTime()) + " milissegundos");
+                System.out.println("Diff = " + (after.getTime() - before.getTime()) + " - milissegundos");
 
             break;
 
@@ -58,7 +58,7 @@ public class BruteForce {
                         //Fazer: montar cada quadrante do IPv4 (256.256.256.256)
                         //Substituir IP fixo por IP Variável
                         InetAddress address = InetAddress.getByName("172.217.173.78");
-                        System.out.println(i + " - Is " + address.getHostAddress() + " reachable? " + (address.isReachable(50)));
+                        System.out.println(i + " - Is " + address.getHostAddress() + " is reachable? " + (address.isReachable(50)));
                     } catch (Exception e){
                         e.printStackTrace();
                     }
